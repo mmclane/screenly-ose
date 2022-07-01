@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Screenly/screenly-ose.svg?branch=master)](https://travis-ci.org/Screenly/screenly-ose)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5905ebcf4aab4220ad9fdf3fb679c49d)](https://www.codacy.com/app/vpetersson/screenly-ose?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Screenly/screenly-ose&amp;utm_campaign=Badge_Grade)
-[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/screenly/screenly-ose&defaultDeviceType=raspberrypi3)
+[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/mmclane/screenly-ose&defaultDeviceType=raspberrypi)
 
 # Screenly OSE - Digital Signage for the Raspberry Pi
 
@@ -12,7 +12,7 @@ Want to help OSE thrive? Support us using [GitHub Sponsor](https://github.com/sp
 
 ## Disk images
 
-The recommended installation method is to grab the latest disk image from [here](https://github.com/Screenly/screenly-ose/releases).
+The recommended installation method is to grab the latest disk image from [here](https://github.com/mmclane/screenly-ose/releases).
 
 ## Installing on Raspbian/Raspberry Pi OS
 
@@ -35,11 +35,11 @@ During ideal conditions (Raspberry Pi 3 Model B+, class 10 SD card and fast inte
 Deploying Screenly OSE to Balena is a breeze. Note that the Deploy to Balena button will **only** work for Pi 3. See the page below for how to run on other boards.
 
 
-For further information please take a look at our docs section where we have a [Balena specific guide](https://github.com/Screenly/screenly-ose/blob/master/docs/balena.md).
+For further information please take a look at our docs section where we have a [Balena specific guide](https://github.com/mmclane/screenly-ose/blob/master/docs/balena.md).
 
 ## Upgrading on Screenly OSE
 
-The releases are based on the [Sprints](https://github.com/Screenly/screenly-ose/projects). At the end of each sprint, we merge the master branch (also known as the developer version), into the production branch and generate a new disk image.
+The releases are based on the [Sprints](https://github.com/mmclane/screenly-ose/projects). At the end of each sprint, we merge the master branch (also known as the developer version), into the production branch and generate a new disk image.
 
 Should you want to upgrade to the latest development version (for instance if you want to try a bug-fix), you can do this by simply re-running the installation script and select that you want to install the development version. Re-running the installation script should normally not take more than a few minutes (depending on how much changed).
 
@@ -53,9 +53,9 @@ Quick links:
  * [Screenly OSE Forum](https://forums.screenly.io/c/screenly-ose)
  * [Screenly OSE Home](https://www.screenly.io/ose/)
  * [Live Demo](https://ose.demo.screenlyapp.com/)
- * [QA Checklist](https://github.com/Screenly/screenly-ose/blob/master/docs/qa-checklist.md)
+ * [QA Checklist](https://github.com/mmclane/screenly-ose/blob/master/docs/qa-checklist.md)
  * [API Docs](https://ose.demo.screenlyapp.com/api/docs/)
- * [Developer Documentation](https://github.com/Screenly/screenly-ose/blob/master/docs/developer-documentation.md)
+ * [Developer Documentation](https://github.com/mmclane/screenly-ose/blob/master/docs/developer-documentation.md)
 
 Screenly OSE works on all Raspberry Pi versions, including Raspberry Pi Zero, Raspberry Pi 3 Model B, and Raspberry Pi 4 Model B.
 
